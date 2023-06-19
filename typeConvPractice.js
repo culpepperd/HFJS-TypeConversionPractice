@@ -42,6 +42,7 @@ function printTypeOf() {
 	var test7 = { "abcdef": 123 };
 	var test8 = ["abcdef", 123];
 
+	// typeOf examples 
 	var typeOf1 = document.getElementById("typeOf1"); // '&nbsp' adds a non-broken space
 	typeOf1.innerHTML = "var test1 = \"abcdef\";" + '&nbsp;'.repeat(19) + "is of type: " + (typeof test1);
 	var typeOf2 = document.getElementById("typeOf2");
